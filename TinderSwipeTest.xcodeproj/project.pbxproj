@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A520C89F22E16547006D8392 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A520C89E22E16547006D8392 /* Default-568h@2x.png */; };
 		A5A56C7C22D2870300898ED4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A56C7B22D2870300898ED4 /* AppDelegate.swift */; };
 		A5A56C7E22D2870300898ED4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A56C7D22D2870300898ED4 /* SceneDelegate.swift */; };
 		A5A56C8022D2870300898ED4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A56C7F22D2870300898ED4 /* ContentView.swift */; };
@@ -17,7 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A5A56C7822D2870300898ED4 /* TextFieldTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFieldTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A520C89E22E16547006D8392 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A5A56C7822D2870300898ED4 /* TinderSwipeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderSwipeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A56C7B22D2870300898ED4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5A56C7D22D2870300898ED4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A5A56C7F22D2870300898ED4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,7 +44,8 @@
 		A5A56C6F22D2870300898ED4 = {
 			isa = PBXGroup;
 			children = (
-				A5A56C7A22D2870300898ED4 /* TextFieldTest */,
+				A520C89E22E16547006D8392 /* Default-568h@2x.png */,
+				A5A56C7A22D2870300898ED4 /* TinderSwipeTest */,
 				A5A56C7922D2870300898ED4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +53,12 @@
 		A5A56C7922D2870300898ED4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A5A56C7822D2870300898ED4 /* TextFieldTest.app */,
+				A5A56C7822D2870300898ED4 /* TinderSwipeTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A5A56C7A22D2870300898ED4 /* TextFieldTest */ = {
+		A5A56C7A22D2870300898ED4 /* TinderSwipeTest */ = {
 			isa = PBXGroup;
 			children = (
 				A5A56C7B22D2870300898ED4 /* AppDelegate.swift */,
@@ -67,7 +70,7 @@
 				A5A56C8922D2870600898ED4 /* Info.plist */,
 				A5A56C8322D2870600898ED4 /* Preview Content */,
 			);
-			path = TextFieldTest;
+			path = TinderSwipeTest;
 			sourceTree = "<group>";
 		};
 		A5A56C8322D2870600898ED4 /* Preview Content */ = {
@@ -81,9 +84,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A5A56C7722D2870300898ED4 /* TextFieldTest */ = {
+		A5A56C7722D2870300898ED4 /* TinderSwipeTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A5A56C8C22D2870600898ED4 /* Build configuration list for PBXNativeTarget "TextFieldTest" */;
+			buildConfigurationList = A5A56C8C22D2870600898ED4 /* Build configuration list for PBXNativeTarget "TinderSwipeTest" */;
 			buildPhases = (
 				A5A56C7422D2870300898ED4 /* Sources */,
 				A5A56C7522D2870300898ED4 /* Frameworks */,
@@ -93,9 +96,9 @@
 			);
 			dependencies = (
 			);
-			name = TextFieldTest;
+			name = TinderSwipeTest;
 			productName = TextFieldTest;
-			productReference = A5A56C7822D2870300898ED4 /* TextFieldTest.app */;
+			productReference = A5A56C7822D2870300898ED4 /* TinderSwipeTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +116,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A5A56C7322D2870300898ED4 /* Build configuration list for PBXProject "TextFieldTest" */;
+			buildConfigurationList = A5A56C7322D2870300898ED4 /* Build configuration list for PBXProject "TinderSwipeTest" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -126,7 +129,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A5A56C7722D2870300898ED4 /* TextFieldTest */,
+				A5A56C7722D2870300898ED4 /* TinderSwipeTest */,
 			);
 		};
 /* End PBXProject section */
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5A56C8822D2870600898ED4 /* LaunchScreen.storyboard in Resources */,
+				A520C89F22E16547006D8392 /* Default-568h@2x.png in Resources */,
 				A5A56C8522D2870600898ED4 /* Preview Assets.xcassets in Resources */,
 				A5A56C8222D2870600898ED4 /* Assets.xcassets in Resources */,
 			);
@@ -289,10 +293,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "TextFieldTest/Preview\\ Content";
+				DEVELOPMENT_ASSET_PATHS = "TinderSwipeTest/Preview\\ Content";
 				DEVELOPMENT_TEAM = 7648369VT6;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = TextFieldTest/Info.plist;
+				INFOPLIST_FILE = TinderSwipeTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,10 +313,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "TextFieldTest/Preview\\ Content";
+				DEVELOPMENT_ASSET_PATHS = "TinderSwipeTest/Preview\\ Content";
 				DEVELOPMENT_TEAM = 7648369VT6;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = TextFieldTest/Info.plist;
+				INFOPLIST_FILE = TinderSwipeTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -327,7 +331,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A5A56C7322D2870300898ED4 /* Build configuration list for PBXProject "TextFieldTest" */ = {
+		A5A56C7322D2870300898ED4 /* Build configuration list for PBXProject "TinderSwipeTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A5A56C8A22D2870600898ED4 /* Debug */,
@@ -336,7 +340,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A5A56C8C22D2870600898ED4 /* Build configuration list for PBXNativeTarget "TextFieldTest" */ = {
+		A5A56C8C22D2870600898ED4 /* Build configuration list for PBXNativeTarget "TinderSwipeTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A5A56C8D22D2870600898ED4 /* Debug */,
