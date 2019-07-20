@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A520C89F22E16547006D8392 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A520C89E22E16547006D8392 /* Default-568h@2x.png */; };
 		A5A56C7C22D2870300898ED4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A56C7B22D2870300898ED4 /* AppDelegate.swift */; };
 		A5A56C7E22D2870300898ED4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A56C7D22D2870300898ED4 /* SceneDelegate.swift */; };
 		A5A56C8022D2870300898ED4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A56C7F22D2870300898ED4 /* ContentView.swift */; };
@@ -18,7 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A520C89E22E16547006D8392 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		A5A56C7822D2870300898ED4 /* TinderSwipeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderSwipeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A56C7B22D2870300898ED4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5A56C7D22D2870300898ED4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +42,6 @@
 		A5A56C6F22D2870300898ED4 = {
 			isa = PBXGroup;
 			children = (
-				A520C89E22E16547006D8392 /* Default-568h@2x.png */,
 				A5A56C7A22D2870300898ED4 /* TinderSwipeTest */,
 				A5A56C7922D2870300898ED4 /* Products */,
 			);
@@ -140,7 +137,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5A56C8822D2870600898ED4 /* LaunchScreen.storyboard in Resources */,
-				A520C89F22E16547006D8392 /* Default-568h@2x.png in Resources */,
 				A5A56C8522D2870600898ED4 /* Preview Assets.xcassets in Resources */,
 				A5A56C8222D2870600898ED4 /* Assets.xcassets in Resources */,
 			);

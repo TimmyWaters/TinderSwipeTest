@@ -126,13 +126,13 @@ struct NewCard : View {
         }
             .rotation3DEffect(Angle(degrees: dragState.isActive ? (Double(xFromCenter / divisor)) : 0), axis: (x: 10.0, y: 10.0, z: 10.0))
             .scaleEffect(x: scale, y: scale, anchor: .center)
-            .offset(y: kGuardian.slide).animation(.basic(duration: 1.5))
+            .offset(y: kGuardian.slide).animation(.easeInOut(duration: 1.5))
             .padding()
             .shadow(color: Color.black, radius: 15, x: 2, y: 2)
             .offset(
                     x: xFromCenter
             )
-            .presentation($showAlert) {
+            .alert(isPresented: $showAlert) {
                 Alert(title: Text("User commented on this photo!"), message: Text(commentText), primaryButton: .default(Text("OK")) {
                     commentText = ""
                     self.comment = ""

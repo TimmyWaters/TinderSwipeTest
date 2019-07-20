@@ -10,7 +10,8 @@ import SwiftUI
 import Combine
 
 final class KeyboardGuardian: BindableObject {
-    let didChange = PassthroughSubject<Void, Never>()
+    
+    let willChange = PassthroughSubject<Void, Never>()
     
     public var rects: Array<CGRect>
     public var keyboardRect: CGRect = CGRect()
@@ -21,7 +22,7 @@ final class KeyboardGuardian: BindableObject {
     
     public var slide: Length = 0 {
         didSet {
-            didChange.send()
+            willChange.send()
         }
     }
     
