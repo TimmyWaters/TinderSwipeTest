@@ -9,7 +9,7 @@
 import SwiftUI
 import Combine
 
-final class KeyboardGuardian: BindableObject {
+final class KeyboardGuardian: ObservableObject {
     
     let willChange = PassthroughSubject<Void, Never>()
     
@@ -20,7 +20,7 @@ final class KeyboardGuardian: BindableObject {
     // this flag makes sure we only act once per keyboard appearance
     public var keyboardIsHidden = true
     
-    public var slide: Length = 0 {
+    public var slide: CGFloat = 0 {
         didSet {
             willChange.send()
         }
@@ -73,5 +73,11 @@ final class KeyboardGuardian: BindableObject {
             }
             
         }
+    }
+}
+
+struct KeyboardGuardian_Previews: PreviewProvider {
+    static var previews: some View {
+        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
     }
 }

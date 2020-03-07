@@ -72,7 +72,7 @@ struct NewCard : View {
     @State var viewState = CGSize.zero
     @State var showAlert = false
     @State var comment: String = ""
-    @ObjectBinding private var kGuardian = KeyboardGuardian(textFieldCount: 1)
+    @ObservedObject private var kGuardian = KeyboardGuardian(textFieldCount: 1)
     var body: some View {
         var divisor: CGFloat
         let minimumLongPressDuration = 0.0
@@ -122,7 +122,8 @@ struct NewCard : View {
                 
                 .padding()
                 .background(GeometryGetter(rect: $kGuardian.rects[0]))
-                .background(Color(red: 239.0/255.0, green: 243.0/255.0, blue: 244.0/255.0, opacity: 1.0), cornerRadius: 10.0)
+                .background(Color(red: 239.0/255.0, green: 243.0/255.0, blue: 244.0/255.0, opacity: 1.0))
+                .cornerRadius(10.0)
         }
             .rotation3DEffect(Angle(degrees: dragState.isActive ? (Double(xFromCenter / divisor)) : 0), axis: (x: 10.0, y: 10.0, z: 10.0))
             .scaleEffect(x: scale, y: scale, anchor: .center)
@@ -147,12 +148,12 @@ struct GeometryGetter: View {
     
     var body: some View {
         GeometryReader { geometry in
-            Group { () -> ShapeView<Rectangle, Color> in
+            Group { () -> AnyView in
                 DispatchQueue.main.async {
                     self.rect = geometry.frame(in: .global)
                 }
                 
-                return Rectangle().fill(Color.clear)
+                return AnyView(Color.clear)
             }
         }
     }
